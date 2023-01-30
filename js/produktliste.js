@@ -1,4 +1,4 @@
-const url = `https://kea-alt-del.dk/t7/api/products?start=0`;
+const url = `https://kea-alt-del.dk/t7/api/products?limit=25&start=20`;
 
 function getData() {
   fetch(url)
@@ -11,7 +11,7 @@ function visProdukter(data) {
   const container = document.querySelector("main");
   data.forEach((produkt) => {
     const kopi = skabelon.cloneNode(true);
-    console.log({ kopi });
+    console.log({ container });
     kopi.querySelector("img").src = `https://kea-alt-del.dk/t7/images/webp/640/${produkt.id}.webp`;
     kopi.querySelector("img").alt = produkt.productdisplayname;
     kopi.querySelector("h3").textContent = produkt.productdisplayname;
