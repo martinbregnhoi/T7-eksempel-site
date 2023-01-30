@@ -66,7 +66,7 @@ html {
   font-size: 0.9rem;
 }
 .subtle {
-  color: #d8d8d8cc;
+  color: var(--text-decoration-color);
 }
 .productlist article {
   display: flex;
