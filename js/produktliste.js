@@ -1,4 +1,4 @@
-const url = `https://kea-alt-del.dk/t7/api/products?limit=25&start=20`;
+const url = `https://kea-alt-del.dk/t7/api/products?limit=50&start=20`;
 
 function getData() {
   fetch(url)
