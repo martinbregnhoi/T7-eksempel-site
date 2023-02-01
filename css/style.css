@@ -39,6 +39,7 @@ html {
 .categorylist a {
   text-decoration: none;
   padding: 2em;
+  color: white;
   background-color: var(--cat-background-color);
 }
 
