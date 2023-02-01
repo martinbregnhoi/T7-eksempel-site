@@ -39,6 +39,7 @@
   --input-focus-border-color: #5aaafa;
   --kbd-color: #343334;
   --kbd-background-color: #f9f9f9;
+  --cat-background-color: #949394;
   --kbd-border-color: #d8d8d8;
   --kbd-border-bottom-color: #a6a5a6;
   --abbr-border-bottom-color: #949394;
@@ -72,9 +73,7 @@
 
 html {
   font-size: calc(18px + ((100vw - 600px) / 250));
-  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
-    "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial,
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
   margin: 0;
   padding: 0;
   text-decoration-skip-ink: "auto";
@@ -244,9 +243,7 @@ textarea {
   background-color: var(--input-background-color);
   box-sizing: border-box;
   padding: 0.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir,
-    "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial,
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
 }
 
 input:focus,
@@ -351,8 +348,7 @@ button {
   appearance: none;
   display: inline-block;
   line-height: initial;
-  transition: background-color 200ms ease-in-out, border 200ms ease-in-out,
-    transform 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out, border 200ms ease-in-out, transform 200ms ease-in-out;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   user-select: none;
@@ -407,8 +403,7 @@ td {
 /* Code
     ––––––––––––––––––––––––––––––––– */
 code {
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
-    monospace;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 0.8rem;
   white-space: nowrap;
   background: var(--input-background-color);
@@ -476,8 +471,7 @@ dd {
 kbd {
   display: inline-block;
   padding: 0 0.328rem;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier,
-    monospace;
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size: 0.64rem;
   color: var(--kbd-color);
   vertical-align: middle;

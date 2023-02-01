@@ -39,7 +39,7 @@ html {
 .categorylist a {
   text-decoration: none;
   padding: 2em;
-  background-color: var(--kbd-background-color);
+  background-color: var(--cat-background-color);
 }
 
 @media screen and (min-width: 800px) {
